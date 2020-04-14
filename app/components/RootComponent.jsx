@@ -5,7 +5,7 @@ const PoemDisplay = require("./PoemDisplay");
 const RootComponent = function() {
   return (
     <div>
-      <h1>Automatic Poem Generator</h1>
+      <h1>Max's Petrarchan Poem Generator</h1>
 
       <PoemDisplay />
     </div>

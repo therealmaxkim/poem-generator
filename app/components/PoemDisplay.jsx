@@ -9,7 +9,12 @@ module.exports = function(props) {
             .then(lines => setPoem(lines));
     }, []);
 
-    const lineElts = poem.map((line, i) => <li key={i}>{line}</li>);
+    //Octet of ABBAABBA and sestet of CDECDE
+    const lineIndex = ["A", "B", "B", "A", "A", "B", "B", "A", "C", "D", "E", "C", "D", "E"];
 
-    return (<ul>{lineElts}</ul>);
+    const lineElts = poem.map((line, i) => <div class={lineIndex[i]}>{line}</div>);
+
+    return (
+        <div class="front">{lineElts}</div>
+    );
 }

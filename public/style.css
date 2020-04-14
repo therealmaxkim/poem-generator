@@ -1,3 +1,38 @@
 body {
     font-family: Futura;
 }
+
+.front {
+    border: 3px dotted royalblue;
+    margin: 30px;
+}
+.A {
+    font-size: 16px;
+    color: green;
+    text-align: left;
+    margin: 10px;
+}
+.B {
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    margin: 10px;
+}
+.C {
+    font-size: 20px;
+    color: blue;
+    text-align: right;
+    margin: 10px;
+}
+.D {
+    font-size: 22px;
+    color:aquamarine;
+    text-align: center;
+    margin: 10px;
+}
+.E {
+    font-size: 24px;
+    color: blueviolet;
+    text-align: left;
+    margin: 10px;
+}
